@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Root Start */
+:root {
+    --fontnavbar: rgb(233, 154, 19);
+    --bgheadertop: black;
+    --bgbody-font: white;
+    --color1: #f7f3f7;
+    --color2: #adcede;
+    --color3: #528ea4;
+    --color4: #fff;
+}
+
+/* Root End */
+
+/* body Start */
+body {
+    background-color: var(--color1);
+}
+
+/* Body End */
+
+/* head Start */
+.head {
+    background-color: var(--color2);
+}
+
+/* head End */
+.head .container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.head .iconheader .fa-brands {
+    color: var(--color3);
+}
+
+.head .iconheader {
+    color: var(--color4);
+}
+
+/* Navbar Start */
+.headnav {
+    background-color: var(--color3);
+}
+
+.collapse {
+    flex-grow: 0;
+}
+
+/* Navbar End */
+
+/* Carosel Start*/
+.carousel-item img {
+    height: 50vh;
+    object-fit: cover
+}
+
+/* Carosel End */
+
+/* About-Area Start*/
+.about-area {
+    padding: 120px 0;
+}
+
+.about-area .container .align {
+    align-items: center;
+}
+
+.about-area .container .col-lg-6 img {
+    max-width: 100%;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.5);
+}
+
+.about-area .container .col-lg-6 .about-right {
+    padding-left: 30px;
+    padding-top: 30px;
+    line-height: 3em;
+}
+
+.about-area .container .col-lg-6 .about-right .side-title {
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 55px;
+}
+
+.about-area .container .col-lg-6 .about-right .desc {
+    font-size: 18px;
+    font-weight: 500px;
+}
+
+/* About-Area End*/
+
+/* jeep-area Start */
+.jeep-area .headline {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.jeep-area .headline .title {
+    color: var(--color3);
+    font-weight: 600px;
+    font-size: 25px;
+}
+
+.jeep-area .card {
+    padding: 15px;
+    border-radius: 10px;
+    background-color: var(--color2);
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.jeep-area .card ul li i {
+    color: var(--color3);
+}
+
+.jeep-area .jeephead {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    line-height: 2em;
+    color: var(--color3);
+    font-weight: bolder;
+}
+
+.jeep-area .jeephead span {
+    font-size: 18px;
+}
+
+.jeep-area .headline h2 {
+    font-family: "Road Rage", sans-serif;
+    font-size: 70px;
+    color: var(--color3);
+}
+
+/* jeep-area End */
+
+/* Counter-Area Start */
+.counter-area{
+    margin-top: 50px;
+  }
+.counter-area .card{
+    padding: 15px;
+    border-radius: 10px;
+    background-color: var(--color2);
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+/* Counter_Area End */
+
+/* Rent-Area Start */
+.rent-area .container .card{
+    background-color: var(--color2);
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+.btn{
+    background-color: var(--color3);
+}
+/* Rent-Area End */
