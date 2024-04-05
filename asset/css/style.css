@@ -160,3 +160,46 @@ body {
     background-color: var(--color3);
 }
 /* Rent-Area End */
+
+/* Feature Area */
+
+@media only screen and (max-width: 600px) {
+    .feature-area {
+        margin-top: -80px;
+      }
+}
+
+@media only screen and (min-width: 600px) {
+    .feature-area {
+        margin-top: -80px;
+      }
+}
+
+@media only screen and (min-width: 768px) {
+    .feature-area {
+        margin-top: -80px;
+      }
+}
+
+@media only screen and (min-width: 992px) {
+    .feature-area {
+        margin-top: -80px;
+      }
+}
+
+@media only screen and (min-width: 1200px) {
+    .feature-area {
+        margin-top: -80px;
+      }
+}
+
+
+.feature-area{
+    box-sizing: border-box;
+    padding: 120px 0;
+    background-color: var(--color2);
+}
+
+.feature-icon img{
+    height: 200px;
+}
