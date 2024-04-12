@@ -8,41 +8,49 @@
     --fontnavbar: rgb(233, 154, 19);
     --bgheadertop: black;
     --bgbody-font: white;
-    --color1: #f7f3f7;
-    --color2: #adcede;
-    --color3: #528ea4;
+    --card :#E7E9EB;
+    --color1: #88888B;
+    --color2: #D6D6D6;
+    --color3: #3C323B;
     --color4: #fff;
+    --color-biru1:#528ea4;
+    --color-biru2:#Adcede;
+    --color-biru3:#F7f3f7;
 }
 
 /* Root End */
 
 /* body Start */
 body {
-    background-color :#f5f5dc;
+    background-color :#F2ece6;
 }
 
 /* Body End */
 
+/* Head Start */
+
+.head{
+    background-color: var(--color2);
+    font-size: 20px;
+}
 .head .container {
     padding-top: 10px;
     padding-bottom: 10px;
 }
-
-.head .iconheader .fa-brands {
-    color: var(--color3);
-}
-
 .head .iconheader {
-    color: var(--color4);
+    color: var(--bgbody-font);
 }
+
+/* Head End */
 
 /* Navbar Start */
 .headnav {
-    background-color: var(--bgbody-font);
+    background-color: var(--color-biru1);
 }
 
 .collapse {
     flex-grow: 0;
+    font-size: 18px;
 }
 
 /* Navbar End */
@@ -104,7 +112,8 @@ body {
 .jeep-area .card {
     padding: 15px;
     border-radius: 10px;
-    background-color:#E5DDC5 ;
+    background-color: var(--card) ;
+    color: var(--bgheadertop);
     box-shadow: 5px 5px 5px #aaaaaa;
 }
 
@@ -143,7 +152,7 @@ li{
 .counter-area .card{
     padding: 15px;
     border-radius: 10px;
-    background-color: var(--color2);
+    background-color: var(--color1);
     box-shadow: 10px 10px 5px #aaaaaa;
 }
 /* Counter_Area End */
@@ -152,6 +161,7 @@ li{
 .btn{
     background-color: var(--color1);
     border-radius: 15px;
+    padding: 10px;
 }
 .rent-area .container .col-lg-9{
     background-image: linear-gradient(#090909b5,#0b0b0bd6), url(/asset/images/card1.jpg);
@@ -220,11 +230,12 @@ li{
     height: 200px;
 }
 .feature-item {
-    background-color: var(--bgbody-font);
+    background-color: var(--card);
     padding:10px;
-    border-radius: 10px;
+    border-radius: 10px;  
 }
 .feature-area .feture-head{
     color: var(--bgbody-font);
 }
+
 /* Feature Area End */
