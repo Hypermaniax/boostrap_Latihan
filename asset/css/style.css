@@ -27,37 +27,26 @@ body {
 
 /* Body End */
 
-/* Head Start */
-
-.head{
-    background-color: var(--color2);
-    font-size: 20px;
+.navbar-light .navbar-nav .nav-link.active{
+    color: #fff;
 }
-.head .container {
-    padding-top: 10px;
-    padding-bottom: 10px;
+.navbar-light .navbar-nav .nav-link{
+    color: #fff;
 }
-.head .iconheader {
-    color: var(--bgbody-font);
-}
-
-/* Head End */
 
 /* Navbar Start */
-.headnav {
-    background-color: var(--color-biru1);
-}
 
 .collapse {
     flex-grow: 0;
     font-size: 18px;
 }
 
+
 /* Navbar End */
 
 /* Carosel Start*/
 .carousel-item img {
-    height: 50vh;
+    height:75vh;
     object-fit: cover
 }
 
@@ -98,19 +87,25 @@ body {
 /* About-Area End*/
 
 /* jeep-area Start */
+.jeep-area{
+    background-color: #211F1F;
+    padding: 15px;
+}
 .jeep-area .headline {
     text-align: center;
-    margin-bottom: 25px;
+    margin-bottom: 25px; 
 }
 
 .jeep-area .headline .title {
-    color: var(--color3);
     font-weight: 600px;
     font-size: 25px;
+    color: #fff;
 }
 
 .jeep-area .card {
     padding: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
     border-radius: 10px;
     background-color: var(--card) ;
     color: var(--bgheadertop);
@@ -137,7 +132,7 @@ body {
 .jeep-area .headline h2 {
     font-family: "Road Rage", sans-serif;
     font-size: 70px;
-    color: var(--color3);
+    color: #fff;
 }
 li{
     list-style: none;
@@ -163,6 +158,10 @@ li{
     border-radius: 15px;
     padding: 10px;
 }
+.rent-area{
+    background-color: #211F1F;
+    padding-top: 25px;
+}
 .rent-area .container .col-lg-9{
     background-image: linear-gradient(#090909b5,#0b0b0bd6), url(/asset/images/card1.jpg);
     background-size:cover;
@@ -183,6 +182,12 @@ li{
       .feature-area .col-md-6{
         margin-top: 10px;
     }
+    .main{
+        margin-top: 0;
+    }
+    .headnav {
+        background-color: var(--color-biru1);
+    }
 }
 
 @media only screen and (min-width: 600px) {
@@ -192,6 +197,13 @@ li{
       .feature-area .col-md-6{
         margin-top: 10px;
     }
+    .main{
+        margin-top: 0px;
+    }
+    .headnav {
+        background-color: var(--color-biru1);
+    }
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -201,18 +213,36 @@ li{
     .feature-area .col-md-6{
         margin-top: 10px;
     }
+    .main{
+        margin-top: 0px;
+    }
+    .headnav {
+        background-color: var(--color-biru1);
+    }
 }
 
 @media only screen and (min-width: 992px) {
     .feature-area {
         margin-top: -80px;
       }
+      .main{
+        margin-top: -66px;
+    }
+    .headnav {
+        background-color: rgba(0, 0, 0, 1);
+    }
 }
 
 @media only screen and (min-width: 1200px) {
     .feature-area {
         margin-top: -80px;
       }
+    .main{
+        margin-top: -66px;
+    }
+    .headnav {
+        background-color: rgba(0, 0, 0, 0.6);
+    }
 }
 
 
@@ -238,4 +268,11 @@ li{
     color: var(--bgbody-font);
 }
 
-/* Feature Area End */
+/* Feature Area End */
+
+.footer-area  .row .iconheader i {
+    color: #fff;
+}
+.footer-area .row .iconheader span{
+    color: #fff;
+}
