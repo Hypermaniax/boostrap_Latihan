@@ -1,41 +1,26 @@
-const express = require("express")
-const mysql = require("mysql")
-const path = require("path")
-const http =require('http')
-
-const app = express()
-
-app.use(express.static(path.join(__dirname)))
-
-const db = mysql.createConnection({
-    host :"localhost",
-    database:"db_bromtour",
-    user:"root",
-    password:"",
-})
-
-db.connect((err)=>{
-    if(err)throw err
-    console.log("databse connected...")
-})
-
-app.get('/bromotour', (req, res) => {
-    res.sendFile(path.join(__dirname, "index.html"));
+$(document).ready(function () {
+  $("#owl-demo").owlCarousel({
+    loop: true,
+    items: 5, //10 items above 1000px browser width
+    itemsDesktop: [1000, 4], //5 items between 1000px and 901px
+    itemsDesktopSmall: [900, 2], // betweem 900px and 601px
+    itemsTablet: [600, 2], //2 items between 600 and 0;
+    itemsMobile: false, // itemsMobile disabled - inherit from itemsTablet option
+    responsiveClass: true,
+    responsive: {
+      0: {
+        items: 2,
+        nav: true,
+      },
+      600: {
+        items: 3,
+        nav: false,
+      },
+      1000: {
+        items: 3,
+        nav: false,
+        loop: true,
+      },
+    },
+  });
 });
-
-app.get('/', (req, res) => {
-    const sql = "select * from admin "
-
-    db.query(sql, (err,reslut)=>{ 
-        res.json({
-            message: "success",
-            data: reslut,
-        })
-    })
-})
-
-app.listen(8080,()=>{
-    console.log("Sever Ready")
-})
-    
-console.log(http)
