@@ -84,7 +84,6 @@ body {
     font-weight: 500px;
 }
 
-
 /* About-Area End*/
 
 /* jeep-area Start */
@@ -239,15 +238,63 @@ li {
 }
 /* galery */
 
+.contact-us-arrow{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.contact-us{
+    background-color: #528EA4;
+    padding: 45px;
+}
+.contact-us .btn{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Gaelery End */
+
+/* Contact-Us Start */
+.contact-us{
+    color: var(--bgbody-font);
+}
+.contact-us .btn{
+    background-color: var(--bgbody-font);
+    border-radius: 15px;
+    padding: 10px;
+    width: 60%;
+    color: var(--color-biru1);
+}
+
+.contact-us h2{
+    font-weight: bold;
+}
+/* Contact-UsEnd */
+
 /* Feature Area End */
 
-.footer-area .row .iconheader i {
-    color: #fff;
+.footer-area{
+    color: var(--bgbody-font);
+    font-size: 17px;
+}
+.footer-area .footer-logo img{
+    height: 40px;
+}
+.footer-area .icon-footer{
+    padding-top: 15px;
+    display: flex;
+}
+.footer-area .icon-footer .left{
+    margin-left: 25px;
+}
+.footer-area .icon-block .icon{
+    margin-right: 25px;
+    margin-top: 10px;
+}
+.footer-area .title-footer h5{
+    font-weight: bolder;
+    font-size: 30px;
 }
 
-.footer-area .row .iconheader span {
-    color: #fff;
-}
 
 /* login */
 
@@ -351,7 +398,23 @@ li {
     .headnav {
         background-color: var(--color-biru1);
     }
-
+    .footer-area .icon-footer{
+        padding-top: 15px;
+        display: block;
+    }
+    .footer-area .footer-logo img{
+        width: 150PX;
+    }
+    .footer-area .icon-footer .left{
+        margin-left: 0px;
+    }
+    .contact-us .left {
+        display: none;
+    }
+    .contact-us-arrow{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
 }
 
 @media only screen and (min-width: 600px) {
