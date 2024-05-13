@@ -363,9 +363,7 @@ li {
 .login button:hover {
     cursor: pointer;
 }
-/* Admin HTML */
-
-
+/* Admin Via HTML */
 
 .admin-title{
     text-align: center;
@@ -385,6 +383,28 @@ li {
 }
 
 .main-admin button{
+    background-color: var(--bgheadertop);
+    color: var(--bgbody-font);
+    width: 10%;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+/* Admin Master */
+.main-admin-master .add-admin-via{
+    margin-bottom: 25px;
+}
+.main-admin-master .delete-admin-via{
+    margin-bottom: 25px;
+}
+.main-admin-master .add-galery{
+    margin-bottom: 25px;
+}
+.main-admin-master{
+    margin-top: 25px;
+}
+.main-admin-master button{
     background-color: var(--bgheadertop);
     color: var(--bgbody-font);
     width: 10%;
@@ -466,6 +486,27 @@ li {
         padding-left: 10px;
         padding-right: 10px;
     }
+    .main-admin-master .add-admin-via .container{
+        padding: 15px;
+        background-color: #D1D1D1;
+        border-radius: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .main-admin-master .delete-admin-via .container{
+        padding: 15px;
+        background-color: #D1D1D1;
+        border-radius: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .main-admin-master .add-galery .container{
+        padding: 15px;
+        background-color: #D1D1D1;
+        border-radius: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
 
 @media only screen and (min-width: 600px) {
@@ -537,6 +578,28 @@ li {
         padding-right: 40px;
     }
 
+    .main-admin-master .add-admin-via .container{
+        padding: 15px;
+        background-color: #528EA4;
+        border-radius: 15px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .main-admin-master .delete-admin-via .container{
+        padding: 15px;
+        background-color: #528EA4;
+        border-radius: 15px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .main-admin-master .add-galery .container{
+        padding: 15px;
+        background-color: #528EA4;
+        border-radius: 15px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
 }
 
 @media only screen and (min-width: 992px) {
@@ -576,6 +639,28 @@ li {
         padding-left: 180px;
         padding-right: 180px;
     }
+    
+    .main-admin-master .add-admin-via .container{
+        padding: 15px;
+        background-color: #D1D1D1;
+        border-radius: 15px;
+        padding-left: 180px;
+        padding-right: 180px;
+    }
+    .main-admin-master .delete-admin-via .container{
+        padding: 15px;
+        background-color: #D1D1D1;
+        border-radius: 15px;
+        padding-left: 180px;
+        padding-right: 180px;
+    }
+    .main-admin-master .add-galery .container{
+        padding: 15px;
+        background-color: #D1D1D1;
+        border-radius: 15px;
+        padding-left: 180px;
+        padding-right: 180px;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -609,6 +694,28 @@ li {
         padding-right: 180px;
     }
     .main-admin .delete .container{
+        padding: 15px;
+        background-color: #D1D1D1;
+        border-radius: 15px;
+        padding-left: 180px;
+        padding-right: 180px;
+    }
+
+    .main-admin-master .add-admin-via .container{
+        padding: 15px;
+        background-color: #D1D1D1;
+        border-radius: 15px;
+        padding-left: 180px;
+        padding-right: 180px;
+    }
+    .main-admin-master .delete-admin-via .container{
+        padding: 15px;
+        background-color: #D1D1D1;
+        border-radius: 15px;
+        padding-left: 180px;
+        padding-right: 180px;
+    }
+    .main-admin-master .add-galery .container{
         padding: 15px;
         background-color: #D1D1D1;
         border-radius: 15px;
